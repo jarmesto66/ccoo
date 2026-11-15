@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria · Secció Sindical CCOO a VAERSA</title>
+  <meta name="description" content="Galeria fotogràfica de la Secció Sindical de CCOO a VAERSA.">
+  <link rel="alternate" hreflang="ca" href="../ca/galeria.html">
+  <link rel="alternate" hreflang="es" href="../es/galeria.html">
+  <link rel="icon" type="image/png" href="../img/ccoo-vaersa.png">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<a class="skip" href="#principal">Salta al contingut</a>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <a class="marca" href="index.html">
+      <img class="marca-wordmark" src="../img/ccoo-wordmark.png" alt="CCOO">
+      <span>Secció Sindical<small>VAERSA</small></span>
+    </a>
+    <div class="derecha">
+      <nav class="idiomes" aria-label="Idioma">
+        <a href="../es/galeria.html" lang="es" hreflang="es">Castellano</a>
+      </nav>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu-principal" aria-label="Obri el menú">☰</button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Notícies</a></li>
+        <li><a href="afiliacio.html">Afilia't</a></li>
+        <li><a href="galeria.html" aria-current="page">Galeria</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="principal">
+  <section aria-labelledby="titulo-galeria" style="padding-top:2.5rem">
+    <div class="contenedor">
+      <h2 id="titulo-galeria">Galeria</h2>
+      <p class="subtitulo">Imatges d'exemple que es mostren en ordre aleatori cada vegada que carregues la pàgina.</p>
+
+      <div class="filtros" role="group" aria-label="Filtrar per categoria">
+        <button type="button" data-cat="todas" aria-pressed="true">Totes</button>
+        <button type="button" data-cat="eventos" aria-pressed="false">Esdeveniments</button>
+        <button type="button" data-cat="reuniones" aria-pressed="false">Reunions</button>
+        <button type="button" data-cat="formacion" aria-pressed="false">Formació</button>
+        <button type="button" data-cat="centros" aria-pressed="false">Centres</button>
+      </div>
+
+      <div class="galeria" id="galeria">
+        <figure data-cat="eventos"><img src="../img/galeria-01.svg" alt="Assemblea d'afiliació" loading="lazy" width="800" height="600"><figcaption>Assemblea</figcaption></figure>
+        <figure data-cat="eventos"><img src="../img/galeria-02.svg" alt="Concentració informativa" loading="lazy" width="800" height="600"><figcaption>Concentració</figcaption></figure>
+        <figure data-cat="formacion"><img src="../img/galeria-03.svg" alt="Taller de prevenció de riscos" loading="lazy" width="800" height="600"><figcaption>Taller PRL</figcaption></figure>
+        <figure data-cat="reuniones"><img src="../img/galeria-04.svg" alt="Reunió del comité" loading="lazy" width="800" height="600"><figcaption>Reunió del comité</figcaption></figure>
+        <figure data-cat="eventos"><img src="../img/galeria-05.svg" alt="Jornada sindical" loading="lazy" width="800" height="600"><figcaption>Jornada</figcaption></figure>
+        <figure data-cat="eventos"><img src="../img/galeria-06.svg" alt="Piquet informatiu" loading="lazy" width="800" height="600"><figcaption>Piquet informatiu</figcaption></figure>
+        <figure data-cat="centros"><img src="../img/galeria-07.svg" alt="Centre de treball" loading="lazy" width="800" height="600"><figcaption>Centre de treball</figcaption></figure>
+        <figure data-cat="formacion"><img src="../img/galeria-08.svg" alt="Sessió de formació" loading="lazy" width="800" height="600"><figcaption>Formació</figcaption></figure>
+        <figure data-cat="reuniones"><img src="../img/galeria-09.svg" alt="Taula de negociació" loading="lazy" width="800" height="600"><figcaption>Negociació</figcaption></figure>
+        <figure data-cat="eventos"><img src="../img/galeria-10.svg" alt="Acte del Dia de la dona" loading="lazy" width="800" height="600"><figcaption>Dia de la dona</figcaption></figure>
+        <figure data-cat="reuniones"><img src="../img/galeria-11.svg" alt="Procés d'eleccions sindicals" loading="lazy" width="800" height="600"><figcaption>Eleccions sindicals</figcaption></figure>
+        <figure data-cat="centros"><img src="../img/galeria-12.svg" alt="Equip de la secció sindical" loading="lazy" width="800" height="600"><figcaption>Equip</figcaption></figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="contenedor columnas">
+    <div>
+      <h3>Secció Sindical CCOO a VAERSA</h3>
+      <p>Informació sindical per a la plantilla de VAERSA.</p>
+    </div>
+    <div>
+      <h3>Navegació</h3>
+      <ul>
+        <li><a href="index.html">Notícies</a></li>
+        <li><a href="afiliacio.html">Afilia't</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Legal</h3>
+      <ul>
+        <li><a href="https://www.ccoo.es/Aviso_legal">Avís legal CCOO</a></li>
+        <li><a href="https://www.ccoo.es/Politica_de_cookies">Política de cookies</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

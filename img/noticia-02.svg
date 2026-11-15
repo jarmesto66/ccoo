@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Imagen de noticia de ejemplo">
+  <rect width="800" height="450" fill="#8a5a00"/>
+  <rect x="60" y="60" width="680" height="330" rx="18" fill="#fff" opacity=".1"/>
+  <text x="400" y="235" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">Noticia de ejemplo 2</text>
+</svg>
